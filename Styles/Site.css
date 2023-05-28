@@ -1,0 +1,307 @@
+﻿@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, ul, li, a {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.loginDisplay {
+    float: right;
+    color: #fff
+}
+
+.hideSkiplink > a {
+    display: none
+}
+
+.loginDisplay a {
+    background: #000;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    padding: 9px 8px;
+}
+
+.accountInfo {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border: 4px double #000;
+    padding: 10px;
+}
+
+    .accountInfo p {
+        margin: 0px;
+    }
+
+    .accountInfo input {
+        width: 100%
+    }
+
+input#MainContent_LoginUser_RememberMe {
+    width: auto !important
+}
+
+.accountInfo label {
+    font-weight: bold
+}
+
+#MainContent_RegisterUser_CreateUserStepContainer_PasswordRequired {
+    font-size: 11px
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.main {
+    background: url(https://masterofdropship.com/clients/forceel/bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    background: #fff;
+}
+
+.logo {
+    text-align: left;
+    background: #F6F6F6;
+    display: none;
+}
+
+    .logo img {
+        max-width: 280px;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+.menu-bg input, .menu-bg label {
+    display: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu-bg {
+    background: #49484E;
+    border-top: 2px solid #fff;
+}
+
+.menu {
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+
+    .menu ul li a {
+        padding: 10px 20px;
+        display: block;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: .4s;
+        font-size: 14px
+    }
+
+        .menu ul li a:hover {
+            color: #fff;
+            background: #044569;
+            text-decoration: none;
+        }
+
+.home-bg {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 4px double #000;
+}
+
+.promo img {
+    width: 100%;
+}
+
+.middle {
+    text-align: center;
+    padding-bottom: 15px
+}
+
+.heading span {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #000
+}
+
+.sub-heading h5 {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.middle-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.footer {
+    background: #49484E;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+    .footer p {
+        font-size: 14px;
+        margin: 0px
+    }
+
+        .footer p.copy {
+            padding: 7px;
+            margin-top: 15px;
+            background: #000;
+            color: #fff;
+        }
+/*about us*/
+.colmdx {
+    width: 100%;
+    max-width: 340px;
+    display: inline-block;
+    border: 4px double #000;
+    margin: 10px;
+    overflow: hidden;
+}
+
+    .colmdx .img-box {
+        height: 220px;
+        margin: auto;
+    }
+
+        .colmdx .img-box img {
+            padding: 5px;
+            max-width: 100%;
+            max-height: 100%
+        }
+/*.gallery*/
+.colmdx-gallery {
+    width: 100%;
+    max-width: 330px;
+    display: inline-block;
+    margin: 10px;
+    border: 4px double #000;
+}
+
+    .colmdx-gallery .img-box {
+        height: 255px;
+        line-height: 252px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        .colmdx-gallery .img-box img {
+            max-width: 100%;
+            max-height: 100%
+        }
+
+.details-gallery {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-items p, .contact-items a {
+    color: #000;
+    text-transform: uppercase;
+}
+
+h4.headings {
+    text-transform: uppercase;
+    background: #49484E;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 990px) {
+    .loginDisplay {
+        float: none
+    }
+
+    .logo {
+        padding: 15px 0px;
+        text-align: center;
+    }
+
+    .menu-bg input, .menu-bg label {
+        display: block;
+    }
+
+    .menu-bg input {
+        display: none;
+    }
+
+    .menu-bg label {
+        background: #000;
+        color: #fff;
+        padding-left: 10px;
+        font-size: 20px;
+        padding: 5px;
+        text-align: left;
+        margin: 0px;
+    }
+
+        .menu-bg label:before {
+            font-family: 'FontAwesome';
+            content: "\f0c9";
+            padding-right: 10px;
+            color: #16a1e7;
+            font-size: 20px;
+            background: #000;
+            width: 100%
+        }
+
+    .menu-bg input:checked ~ .menu {
+        display: block;
+        transition: .3s
+    }
+
+    .menu {
+        display: none;
+    }
+
+        .menu ul {
+            width: 100% !important
+        }
+
+            .menu ul li {
+                display: table;
+                border-bottom: 1px solid #ddd;
+                width: 100% !important;
+                text-align: left;
+            }
+
+                .menu ul li a {
+                    display: block;
+                    width: 100% !important
+                }
+}
