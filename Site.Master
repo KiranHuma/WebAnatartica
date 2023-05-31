@@ -1,26 +1,30 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="WebAnatartica.SiteMaster" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Antartica Animals</title>
-    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
-<asp:ContentPlaceHolder ID="HeadContent" runat="server">
-</asp:ContentPlaceHolder>
+   <link href="Content/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">--%>
+    <%--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />--%>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
 
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+     <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css">--%>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>--%>
 </head>
 <body>
     <form runat="server">
@@ -29,7 +33,7 @@
                 <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
-                <asp:ScriptReference Name="jquery" />
+                <%--<asp:ScriptReference Name="jquery" />--%>
                 <asp:ScriptReference Name="bootstrap" />
                 <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
                 <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
@@ -44,72 +48,118 @@
             </Scripts>
         </asp:ScriptManager>
 
-      
+
 
 
         <div class="main">
-<div class="container">
+            <div class="container">
 
-<div class="page">
-<div class="header">
-<div class="title">
-<h1>
-WELCOME ANTARCTICA ANIMALS
-</h1>
-</div>
-<div class="menu-bg">
-<div class="row">
-<div class="col-md-8">
-<div class="clear hideSkiplink">
-<input type="checkbox" id="toggle-nav">
-<label for="toggle-nav">Menu</label>
-<div class="menu">
-<ul>
-<li><a href="Default.aspx" class="active1"> Home</a></li>
-<li><a href="About.aspx" class="active2"> About Us</a></li>
-<li><a href="gallery.aspx" class="active3"> Gallery</a></li>
-<li><a href="page-1.aspx" class="active4"> Page-1</a></li>
-<li><a href="page-2.aspx" class="active5"> Page-2</a></li>
-<li><a href="page-3.aspx" class="active6"> Page-3</a></li>
-<li><a href="page-4.aspx" class="active7"> Page-4</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="loginDisplay">
-<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-<AnonymousTemplate>
-<a href="Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a>
-</AnonymousTemplate>
-<LoggedInTemplate>
-Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/>
-</LoggedInTemplate>
-</asp:LoginView>
-</div>
-</div>
-</div>
-</div>
-</div>
-<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>
-<div class="clear">
-</div>
-</div>
+                <div class="page">
+                    <div class="header">
+                        <div class="title">
+                            <h1>WELCOME ANTARCTICA ANIMALS
+                            </h1>
+                        </div>
+                        <div class="menu-bg">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="clear hideSkiplink">
+                                        <input type="checkbox" id="toggle-nav">
+                                        <label for="toggle-nav">Menu</label>
+                                        <div class="menu">
+                                            <ul>
+                                                <li><a href="Default.aspx" class="active1">Home</a></li>
+                                                 <li class="nav-item dropdown" runat="server" id="aboutmenu">
+                                                    <a class="dropdown-toggle" href="#" id="dropdownMenuButton" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        About
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a class="dropdown-item" href="page-1.aspx">Frozen Odyssey</a></li>
+                                                        <li><a class="dropdown-item" href="page-2.aspx">Extreme Environment</a></li>
+                                                        <li><a class="dropdown-item" href="page-3.aspx">Fragile Ecosystems</a></li>
+                                                        <li><a class="dropdown-item" href="page-4.aspx">Polar Discoveries</a></li>
+                                                        <li><a class="dropdown-item" href="ScientificResearch.aspx">Scientific Research</a></li>
+                                                        <li><a class="dropdown-item" href="International.aspx">International Cooperation</a></li>
+                                                        <li><a class="dropdown-item" href="ClimateChange.aspx">Climate Change</a></li>
+                                                        <li><a class="dropdown-item" href="Tourism.aspx">Tourism</a></li>
+                                                        <li><a class="dropdown-item" href="FutureOutlook.aspx">Preservation and Future Outlook</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="gallery.aspx" class="active3">Gallery</a></li>
+                                                
+                                                <li><a href="login.aspx" class="active3" id="loginBtn" runat="server">Login</a></li>
+                                                <li><a href="login.aspx" class="active3" id="logoutBtn" runat="server"> Logout</a></li>
+                                               
+                                                <li style="color:white">
+                                                    <asp:Label runat="server" ID="usernameLbl" Text="" Visible="false" ></asp:Label>
+                                                    </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <%--<div class="col-md-4">
+                                    <div class="loginDisplay">
+                                        <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                            <AnonymousTemplate>
+                                                <a href="Login.aspx" id="HeadLoginStatus" runat="server">Log In</a>
+                                            </AnonymousTemplate>
+                                            <LoggedInTemplate>
+                                                Welcome <span class="bold">
+                                                    <asp:LoginName ID="HeadLoginName" runat="server" />
+                                                </span>!
+                                                <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/" />
+                                            </LoggedInTemplate>
+                                        </asp:LoginView>
+                                    </div>
+                                </div>--%>
+                            </div>
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                    <div class="clear">
+                    </div>
+                </div>
 
 
-        <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-           
-        </div>
-    <div class="footer">
-<p><strong>Name :</strong> Tomer Kalderon</p>
-<p><strong>Email :</strong> tomerkalderon123@gmail.com</p>
-<p class="copy">All Rights Reserved Copyright "Tomer Kalderon"</p>
+                <div class="container body-content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <hr />
 
-</div>
+                </div>
+                <div class="footer">
+                    <p><strong>Name :</strong> Tomer Kalderon</p>
+                    <p><strong>Email :</strong> tomerkalderon123@gmail.com</p>
+                    <p class="copy">All Rights Reserved Copyright "Tomer Kalderon"</p>
+
+                </div>
     </form>
+    <style>
+        .dropdown-menu {
+            display: none;
+            background-color:black;
+        }
+
+        .dropdown-toggle.open + .dropdown-menu {
+            display: block;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var dropdownToggle = document.getElementById('dropdownMenuButton');
+            var dropdownMenu = document.querySelector('.dropdown-menu');
+
+            dropdownToggle.addEventListener('click', function () {
+                if (dropdownMenu.style.display === 'none') {
+                    dropdownToggle.classList.add('open');
+                    dropdownMenu.style.display = 'block';
+                } else {
+                    dropdownToggle.classList.remove('open');
+                    dropdownMenu.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>

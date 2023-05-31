@@ -23,13 +23,40 @@ Partial Public Class SiteMaster
     Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
     '''<summary>
-    '''HeadLoginView control.
+    '''aboutmenu control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HeadLoginView As Global.System.Web.UI.WebControls.LoginView
+    Protected WithEvents aboutmenu As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''loginBtn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents loginBtn As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''logoutBtn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents logoutBtn As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
+    '''usernameLbl control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents usernameLbl As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''ContentPlaceHolder1 control.

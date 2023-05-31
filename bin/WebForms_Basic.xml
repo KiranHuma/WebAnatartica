@@ -73,7 +73,61 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:WebAnatartica.admin._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.admin._users">
+<summary>
+users control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.admin._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ClimateChange._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.FutureOutlook._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebAnatartica.gallery._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.international._form1">
 <summary>
 form1 control.
 </summary>
@@ -145,9 +199,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.Register._TextBox1">
+<member name="F:WebAnatartica.Register._firstNameTextBox">
 <summary>
-TextBox1 control.
+firstNameTextBox control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -163,9 +217,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.Register._TextBox2">
+<member name="F:WebAnatartica.Register._lastNameTextBox">
 <summary>
-TextBox2 control.
+lastNameTextBox control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -181,9 +235,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.Register._TextBox4">
+<member name="F:WebAnatartica.Register._userNameTextBox">
 <summary>
-TextBox4 control.
+userNameTextBox control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -199,9 +253,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.Register._TextBox5">
+<member name="F:WebAnatartica.Register._emailTextBox">
 <summary>
-TextBox5 control.
+emailTextBox control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -217,9 +271,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.Register._TextBox3">
+<member name="F:WebAnatartica.Register._passwordTextBox">
 <summary>
-TextBox3 control.
+passwordTextBox control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -235,9 +289,126 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.Register._TextBox6">
+<member name="F:WebAnatartica.Register._confirmPasswordTextBox">
 <summary>
-TextBox6 control.
+confirmPasswordTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._dob">
+<summary>
+dob control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._city">
+<summary>
+city control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._country">
+<summary>
+country control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._details">
+<summary>
+details control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._gender">
+<summary>
+gender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._roleDropdown">
+<summary>
+roleDropdown control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._ResetBtn">
+<summary>
+ResetBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Register._RegisterBtn">
+<summary>
+RegisterBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ScientificResearch._form1">
+<summary>
+form1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -253,9 +424,36 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebAnatartica.SiteMaster._HeadLoginView">
+<member name="F:WebAnatartica.SiteMaster._aboutmenu">
 <summary>
-HeadLoginView control.
+aboutmenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.SiteMaster._loginBtn">
+<summary>
+loginBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.SiteMaster._logoutBtn">
+<summary>
+logoutBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.SiteMaster._usernameLbl">
+<summary>
+usernameLbl control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -274,6 +472,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebAnatartica.SiteMaster._MainContent">
 <summary>
 MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.Tourism._form1">
+<summary>
+form1 control.
 </summary>
 <remarks>
 Auto-generated field.
