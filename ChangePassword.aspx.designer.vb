@@ -50,15 +50,6 @@ Partial Public Class ChangePassword
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label5 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-
-
-    '''<summary>
     '''passwordTextBox control.
     '''</summary>
     '''<remarks>
