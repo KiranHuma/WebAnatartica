@@ -100,6 +100,78 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:WebAnatartica.ChangePassword._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._oldpass">
+<summary>
+oldpass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._passwordTextBox">
+<summary>
+passwordTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._confirmPasswordTextBox">
+<summary>
+confirmPasswordTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.ChangePassword._ChangeBtn">
+<summary>
+ChangeBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebAnatartica.ClimateChange._form1">
 <summary>
 form1 control.
@@ -427,6 +499,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebAnatartica.SiteMaster._aboutmenu">
 <summary>
 aboutmenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebAnatartica.SiteMaster._changepass">
+<summary>
+changepass control.
 </summary>
 <remarks>
 Auto-generated field.

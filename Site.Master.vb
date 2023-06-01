@@ -7,12 +7,14 @@
             usernameLbl.Visible = True
             usernameLbl.Text = "Hi! " + Session("Name")
             aboutmenu.Visible = True
+            changepass.Visible = True
         Else
             loginBtn.Visible = True ' Show the button if the session value exists
             logoutBtn.Visible = False ' Show the button if the session value exists
             usernameLbl.Visible = False
             usernameLbl.Text = ""
             aboutmenu.Visible = False
+            changepass.Visible = False
         End If
     End Sub
 End Class

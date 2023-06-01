@@ -157,6 +157,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="admin.aspx" />
+    <Content Include="ChangePassword.aspx" />
     <Content Include="ClimateChange.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -271,6 +272,13 @@
     <Compile Include="About.aspx.vb">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ClimateChange.aspx.designer.vb">
       <DependentUpon>ClimateChange.aspx</DependentUpon>
@@ -507,7 +515,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51391</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44304/</IISUrl>
+          <IISUrl>https://localhost:44305/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

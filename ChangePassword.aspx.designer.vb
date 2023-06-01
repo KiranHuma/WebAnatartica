@@ -11,77 +11,86 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class SiteMaster
+Partial Public Class ChangePassword
 
     '''<summary>
-    '''HeadContent control.
+    '''Label16 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents Label16 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''aboutmenu control.
+    '''Label1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aboutmenu As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''changepass control.
+    '''oldpass control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents changepass As Global.System.Web.UI.HtmlControls.HtmlAnchor
+    Protected WithEvents oldpass As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''loginBtn control.
+    '''Label5 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents loginBtn As Global.System.Web.UI.HtmlControls.HtmlAnchor
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''logoutBtn control.
+    '''Label5 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents logoutBtn As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
 
     '''<summary>
-    '''usernameLbl control.
+    '''passwordTextBox control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents usernameLbl As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents passwordTextBox As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''ContentPlaceHolder1 control.
+    '''Label6 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ContentPlaceHolder1 As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''MainContent control.
+    '''confirmPasswordTextBox control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents confirmPasswordTextBox As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ChangeBtn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ChangeBtn As Global.System.Web.UI.WebControls.Button
 End Class

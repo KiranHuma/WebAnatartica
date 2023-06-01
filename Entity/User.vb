@@ -8,6 +8,8 @@ Public Class User
     Public Property Password As String
 
     <Compare("Password", ErrorMessage:="Passwords do not match.")>
+    <RegularExpression("^.*(?=.{8,})(?=.*[@])(?=.*[0-9])(?=.*[a-zA-Z]).*$",
+        ErrorMessage:="Password must contain at least 1 special character (@), 1 digit, and have a minimum length of 8 characters.")>
     Public Property ConfirmPassword As String
 
     <Required(ErrorMessage:="Email is required.")>

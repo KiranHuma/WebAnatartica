@@ -46,6 +46,8 @@
                         <p class="submitButton">
                             <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" ValidationGroup="LoginUserValidationGroup" OnClick="LoginButton_Click" />
                         </p>
+                          <br />
+                       <a href="register.aspx"  runat="server">Are you a new User? Click here to register</a>
                     </div>
                 </LayoutTemplate>
             </asp:Login>

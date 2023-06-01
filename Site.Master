@@ -87,6 +87,7 @@
                                                 </li>
                                                 <li><a href="gallery.aspx" class="active3">Gallery</a></li>
                                                 
+                                                <li><a href="ChangePassword.aspx" class="active3" id="changepass" runat="server">Change Password</a></li>
                                                 <li><a href="login.aspx" class="active3" id="loginBtn" runat="server">Login</a></li>
                                                 <li><a href="login.aspx" class="active3" id="logoutBtn" runat="server"> Logout</a></li>
                                                
