@@ -52,10 +52,10 @@ Public Class Register
             'End If
         Else
             Using dbContext As New Model1()
-                Dim user = dbContext.Users.FirstOrDefault(Function(u) u.UserID = newUser.UserID)
+                Dim user = dbContext.Users.FirstOrDefault(Function(u) u.Username = newUser.Username)
 
                 If user IsNot Nothing Then
-                    Label16.Text = "User ID already in the databse."
+                    Label16.Text = "Username already in the databse."
                 Else
                     dbContext.Users.Add(newUser)
                     dbContext.SaveChanges()

@@ -354,6 +354,10 @@
       <DependentUpon>202306020252256_dbChanged.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202306020252256_dbChanged.vb" />
+    <Compile Include="Migrations\202306020445400_useridRequired.designer.vb">
+      <DependentUpon>202306020445400_useridRequired.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202306020445400_useridRequired.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -460,6 +464,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202306020252256_dbChanged.resx">
       <DependentUpon>202306020252256_dbChanged.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306020445400_useridRequired.resx">
+      <DependentUpon>202306020445400_useridRequired.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -332,3 +332,4 @@ C:\Projects\humaprojec\WebAnatartica\obj\Debug\WebAnatartica.dll
 C:\Projects\humaprojec\WebAnatartica\obj\Debug\WebForms_Basic.xml
 C:\Projects\humaprojec\WebAnatartica\obj\Debug\WebAnatartica.pdb
 C:\Projects\humaprojec\WebAnatartica\obj\Debug\WebAnatartica.Migrations.dbChanged.resources
+C:\Projects\humaprojec\WebAnatartica\obj\Debug\WebAnatartica.Migrations.useridRequired.resources

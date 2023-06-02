@@ -3,6 +3,7 @@
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
+
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div class="middle">
         <div class="heading">
@@ -24,11 +25,12 @@
                     <div class="accountInfo">
                         <fieldset class="login">
                             <legend>Account Information</legend>
+                            
                             <p>
-                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">ID:</asp:Label><br>
+                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Username:</asp:Label><br>
                                 <asp:TextBox ID="UserName" runat="server" CssClass="textEntry"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName"
-                                    CssClass="failureNotification" ErrorMessage="ID is required." ToolTip="ID is required."
+                                    CssClass="failureNotification" ErrorMessage="Username is required." ToolTip="Username is required."
                                     ValidationGroup="LoginUserValidationGroup"></asp:RequiredFieldValidator>
                             </p>
                             <p>
@@ -50,6 +52,7 @@
                        <a href="register.aspx"  runat="server">Are you a new User? Click here to register</a>
                     </div>
                 </LayoutTemplate>
+                 
             </asp:Login>
         </div>
     </div>

@@ -10,11 +10,12 @@ Public Class Login
 
     Protected Sub LoginButton_Click(sender As Object, e As EventArgs)
 
+
         Dim username As String = LoginUser.UserName
         Dim password As String = LoginUser.Password
 
         Using dbContext As New Model1()
-            Dim user = dbContext.Users.FirstOrDefault(Function(u) u.UserID = username And u.Password = password)
+            Dim user = dbContext.Users.FirstOrDefault(Function(u) u.UserID = username And u.Password = password )
 
             If user IsNot Nothing Then
                 If (incorrect <= 3) Then
@@ -35,9 +36,9 @@ Public Class Login
 
             Else
                 If incorrect > 3 Then
-                    LoginUser.FailureText = "ID or password is incorrect and your are ban from login"
+                    LoginUser.FailureText = "username or password is incorrect and your are ban from login"
                 Else
-                    LoginUser.FailureText = "ID or password is incorrect"
+                    LoginUser.FailureText = "username or password is incorrect"
                 End If
 
                 incorrect = incorrect + 1

@@ -21,6 +21,7 @@ Public Class User
     Public Property DateOfBirth As String
     Public Property City As String
     Public Property Country As String
+    <Required(ErrorMessage:="User id is required.")>
     Public Property UserID As String
     Public Property Gender As String
     Public Property Mobile As String
