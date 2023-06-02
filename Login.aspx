@@ -9,7 +9,7 @@
             <h4><span>Log In</span></h4>
         </div>
         <div class="sub-heading">
-            <h5>Please enter your username and password.
+            <h5>Please enter your ID and password.
 		<br>
                 <asp:HyperLink ID="RegisterHyperLink" runat="server" EnableViewState="false">Register</asp:HyperLink>
                 if you don't have an account.</h5>
@@ -25,10 +25,10 @@
                         <fieldset class="login">
                             <legend>Account Information</legend>
                             <p>
-                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Username:</asp:Label><br>
+                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">ID:</asp:Label><br>
                                 <asp:TextBox ID="UserName" runat="server" CssClass="textEntry"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName"
-                                    CssClass="failureNotification" ErrorMessage="User Name is required." ToolTip="User Name is required."
+                                    CssClass="failureNotification" ErrorMessage="ID is required." ToolTip="ID is required."
                                     ValidationGroup="LoginUserValidationGroup"></asp:RequiredFieldValidator>
                             </p>
                             <p>

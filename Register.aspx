@@ -43,7 +43,7 @@
     <asp:TextBox ID="country"  runat="server"  CssClass="form-control"></asp:TextBox>
 
 
-         <asp:Label ID="Label11" runat="server" Text="Label">Details</asp:Label> 
+         <asp:Label ID="Label11" runat="server" Text="Label">ID</asp:Label> 
     <asp:TextBox ID="details"  runat="server"  CssClass="form-control"></asp:TextBox>
 
         <asp:DropDownList CssClass="form-control" ID="gender" runat="server">

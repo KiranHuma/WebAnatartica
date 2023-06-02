@@ -350,6 +350,10 @@
       <DependentUpon>202305301230208_migr11.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202305301230208_migr11.vb" />
+    <Compile Include="Migrations\202306020252256_dbChanged.designer.vb">
+      <DependentUpon>202306020252256_dbChanged.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202306020252256_dbChanged.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -453,6 +457,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305301230208_migr11.resx">
       <DependentUpon>202305301230208_migr11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306020252256_dbChanged.resx">
+      <DependentUpon>202306020252256_dbChanged.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

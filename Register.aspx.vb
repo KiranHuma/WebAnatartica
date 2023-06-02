@@ -27,7 +27,7 @@ Public Class Register
         newUser.DateOfBirth = dob.Text
         newUser.City = city.Text
         newUser.Country = country.Text
-        newUser.Details = details.Text
+        newUser.UserID = details.Text
         newUser.Gender = gender.Text
         newUser.Role = roleDropdown.Text
 
@@ -52,10 +52,10 @@ Public Class Register
             'End If
         Else
             Using dbContext As New Model1()
-                Dim user = dbContext.Users.FirstOrDefault(Function(u) u.Username = newUser.Username)
+                Dim user = dbContext.Users.FirstOrDefault(Function(u) u.UserID = newUser.UserID)
 
                 If user IsNot Nothing Then
-                    Label16.Text = "Username already in the databse."
+                    Label16.Text = "User ID already in the databse."
                 Else
                     dbContext.Users.Add(newUser)
                     dbContext.SaveChanges()

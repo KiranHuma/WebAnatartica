@@ -21,7 +21,7 @@ Public Class User
     Public Property DateOfBirth As String
     Public Property City As String
     Public Property Country As String
-    Public Property Details As String
+    Public Property UserID As String
     Public Property Gender As String
     Public Property Mobile As String
     Public Property Role As String
